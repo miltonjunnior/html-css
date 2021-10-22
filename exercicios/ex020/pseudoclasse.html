@@ -13,6 +13,18 @@
           border: 1px solid black;
           height: 200px; /* altura */
           width: 200px; /* largura */
+          border-radius: 20px;
+      }
+
+      div #dentro {
+          width: 100px;
+          height: 100px;
+          border-radius: 0px;
+          position: relative;
+          top: 40px;
+          right: 60px;
+          
+        
       }
 
       div:hover {
@@ -21,7 +33,7 @@
   </style>
 </head>
 <body>
-    <div id="d1">01</div>
+    <div id="d1">01 <div id="dentro">2</div></div>
     <div id="d2">02</div>
     <div id="d3">03</div>
 </body>
